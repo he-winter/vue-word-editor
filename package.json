@@ -1,0 +1,76 @@
+{
+  "_from": "vue-word-editor",
+  "_id": "vue-word-editor@0.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-CwHx8LgjetEANoR6V9rgr1DWcPo=",
+  "_location": "/vue-word-editor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-word-editor",
+    "name": "vue-word-editor",
+    "escapedName": "vue-word-editor",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/vue-word-editor/download/vue-word-editor-0.0.3.tgz",
+  "_shasum": "0b01f1f0b8237ad10036847a57dae0af50d670fa",
+  "_spec": "vue-word-editor",
+  "_where": "C:\\Users\\root\\Desktop\\商城项目\\臻选商城后台管理\\src",
+  "author": {
+    "name": "hsian"
+  },
+  "bugs": {
+    "url": "https://github.com/hsian/vue-word-editor/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "quill": "^1.3.6",
+    "vue": "^2.6.10"
+  },
+  "deprecated": false,
+  "description": "rich text editor for  vue (based on quill)",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/hsian/vue-word-editor#readme",
+  "keywords": [
+    "vue quill",
+    "vue text editor",
+    "vue rich text editor",
+    "vue web editor",
+    "vue editor",
+    "vue word editor"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "vue-word-editor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsian/vue-word-editor.git"
+  },
+  "scripts": {
+    "build": "webpack --config scripts/build.js"
+  },
+  "version": "0.0.3"
+}
